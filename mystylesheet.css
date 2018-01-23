@@ -1,3 +1,17 @@
 .mainheading{
      text-align: center;
 }
+
+.subheading{
+    text-align: left;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+.cubs{
+                background-image: url("http://sulis.ucc.ie/greencampus/wp-content/uploads/2017/09/UCC-logo-block-1.png") no-repeat;
+                background-size: cover;
+                
+               
+            }

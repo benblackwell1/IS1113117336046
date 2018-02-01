@@ -1,15 +1,31 @@
 #section1{
-    background-color:rgb(238, 0, 90);
+    background-image:url(https://images2.alphacoders.com/441/441501.jpg);
+    background-size:cover;
+            background-repeat:no-repeat;
+            width:100%;
+            height: 100%;
+   
 }
 #section2{
-    background-color:rgb(44, 62, 80);
+    background-image:url(http://files.all-free-download.com//downloadfiles/wallpapers/1600_1200/canada_flag_wallpaper_canada_world_1781.jpg);
+     background-size:cover;
+            background-repeat:no-repeat;
+            width:100%;
+            height: 100%;
+    
 }
 #section3{
-    background-color:rgb(51, 153, 204);
+    background-image:url(http://blog.yizzam.com/wp-content/uploads/2017/03/irish-flag-2.jpg);
+    background-size:cover;
+            background-repeat:no-repeat;
+            width:100%;
+            height:100%;
+    
+    
 }
 
 .section{
     text-align: center;
-    color: white;
+    color: Black;
 }
 

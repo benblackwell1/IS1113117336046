@@ -12,7 +12,7 @@
         
         <!--jQuery-->
         <script src="https://ajax-googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script type="text/javascript" src="cost_cac.js"></script>
+        <script type="text/javascript" src="cost_calc.js"></script>
     </head>
     
     <body>
@@ -22,8 +22,8 @@
         
         <form method="POST" action="Ebus1.php">
         
-        <label for="salesforce">
-            <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed">
+        <label for="SalesForce">
+            <input type="radio" id="salesForce" name="product" checked onClick="disablebtnProceed">
             SalesForce @ $100
         </label>
         
@@ -56,7 +56,7 @@
         </form>
         
         <br/>
-        <button onClick="calSub()">Calculate Cost</button>
+        <button onClick="calcSub()">Calculate Cost</button>
         <a role="button" href="Ebus1.php">Clear Choices</a>
     </body>
             

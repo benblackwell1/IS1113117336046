@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Select Product</title>
-        <link rel="stylesheet" href="../mystylesheet.css" type="text/css" />
+        
         
         <!--jQuery-->
         <script src="https://ajax-googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -14,17 +14,17 @@
         
         <br/>
         
-        <form method="POST" action="Ebus1.php">
+        <form method="POST" action="Ebus2.php">
         
         <label for="SalesForce">
-            <input type="radio" id="salesForce" name="product" checked onClick="disablebtnProceed">
+            <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()">
             SalesForce @ $100
         </label>
         
         <br/>
         
         <label for="aws">
-            <input type="radio" id="aws" name="product" onClick="disablebtnProceed">
+            <input type="radio" id="aws" name="product" onClick="disablebtnProceed()">
             AWS @ $300
         </label>
         
@@ -39,7 +39,7 @@
         <br/>
         
         <label for="total">
-            Sub Total
+            Total
             <input type="text" id="total" value="0.00" readonly>
         </label>
         

@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Select Product</title>
-        
+        <link rel="stylesheet" href="../mystylesheet.css" type="text/css"/>
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -16,10 +16,10 @@
             
             <br/>
             
-            <form method="POST" action="Ebus2.php">
+            <form class="form" method="POST" action="Ebus2.php">
               
               <label for="SalesForce">
- +            <input type="radio" id="salesForce" name="product" checked onClick="disablebtnProceed()">
+              <input type="radio" id="salesForce" name="product" checked onClick="disablebtnProceed()">
                 SalesForce @ $100
               </label>
               
@@ -33,28 +33,33 @@
               <br/>
               <br/>
               
+              <div class="absolute">
+              
               <label for="subtotal">
                 Sub Total
-                <input type="text" id="subtotal" value="0.00" readonly>
+                <input style="margin-left: 50px;" type="text" id="subtotal" value="0.00" readonly>
               </label>
               
               <br/>
               
               <label for="total">
                 Total
-                <input type="text" id="total" value="0.00" readonly>
+                <input style="margin-left: 50px;" type="text" id="total" value="0.00" readonly>
               </label>
     
+              </div>
+              
               <br/>
               
+              <div class="absolute2">
               <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
             
             </form>
             
             <br/>
             <button onClick="calcSub()">Calculate Cost</button>
-            <a role="button" href="Ebus1.php">Clear Choice</a>
-            
+            <a class="button" role="button" href="Ebus1.php">Clear Choice</a>
+            </div>
     
     </body>
 </html>

@@ -11,7 +11,7 @@ body{
 }
 
 ol{
-    list-style-position: center;
+    list-style-position: outside;
     margin: 150px;
 }
 
@@ -20,25 +20,6 @@ li{
     
 }
 
-
-a{
-display: inline-block;
-  border-radius: 12px;
-  background-color: green;
-  border: none;
-  color: black;
-  text-align: center;
-  font-size:20;
-  padding: 10px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
-}
-
-.a{
-    background-color: black;
-    color: white;
-}
 
 label{
     font-family: Arial, Helvetica, sans-serif;
@@ -52,4 +33,64 @@ label{
     padding: 1px 7px 2px;
     background-color: white;
     font-size: 15px;
+}
+
+.form{
+    font-family: Arial, Helvetica, sans-serif;
+     text-align: left;
+}
+
+.absolute{
+    position: absolute;
+    left: 0;
+    width: 100px;
+    height: 100px;
+}
+
+.absolute2{
+    position: absolute;
+    left: 0;
+    top: 35%;
+    width: 300px;
+    height: 300px;
+}
+
+
+.button {
+    border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+    border-style: solid;
+    border-width: 1px;
+    padding: 1px 7px 2px;
+    color: black;
+    background-color: red;
+    border-radius: .25rem;
+}
+
+.btn-dark {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s 
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
 }

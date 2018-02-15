@@ -33,7 +33,7 @@
               <br/>
               <br/>
               
-              <div class="absolute">
+              
               
               <label for="subtotal">
                 Sub Total
@@ -47,11 +47,11 @@
                 <input style="margin-left: 50px;" type="text" id="total" name="total" value="0.00" readonly>
               </label>
     
-              </div>
+              
               
               <br/>
               
-              <div class="absolute2">
+              
               <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
             
             </form>
@@ -59,7 +59,7 @@
             <br/>
             <button onClick="calcSub()">Calculate Cost</button>
             <a class="button" role="button" href="Ebus1.php">Clear Choice</a>
-            </div>
+            
     
     </body>
 </html>

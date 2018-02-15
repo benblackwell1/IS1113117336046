@@ -40,21 +40,6 @@ label{
      text-align: left;
 }
 
-.absolute{
-    position: absolute;
-    left: 0;
-    width: 100px;
-    height: 100px;
-}
-
-.absolute2{
-    position: absolute;
-    left: 0;
-    top: 35%;
-    width: 300px;
-    height: 300px;
-}
-
 
 .button {
     border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);

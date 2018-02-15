@@ -17,7 +17,7 @@
  function display(parm1){
      
      document.getElementById("subtotal").value = parm1;
-      document.getElementById("total").value = parm1;
+     document.getElementById("total").value = parm1;
       
       enablebtnProceed();
  }

@@ -44,7 +44,7 @@
               
               <label for="total">
                 Total
-                <input style="margin-left: 50px;" type="text" id="total" value="0.00" readonly>
+                <input style="margin-left: 50px;" type="text" id="total" name="total" value="0.00" readonly>
               </label>
     
               </div>

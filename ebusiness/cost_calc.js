@@ -7,12 +7,15 @@
      if(document.getElementById('salesForce').checked){
         argSubTotal = 100;
      }
+     else if (document.getElementById('gmail').checked){
+         argSubTotal = 275;
+     }
      else{
          argSubTotal = 300;
     }
      
      display(argSubTotal);
- }
+    }
  
  function display(parm1){
      

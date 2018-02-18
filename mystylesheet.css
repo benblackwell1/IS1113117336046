@@ -2,9 +2,6 @@
      text-align: center;
 }
 
-.subheading{
-    text-align: left;
-}
 
 body{
      font-family: Arial, Helvetica, sans-serif;
@@ -81,5 +78,7 @@ label{
 }
 
 .btn-right{
-    margin-left: 100%;
+    right: 0px;
+    position: absolute;
 }
+

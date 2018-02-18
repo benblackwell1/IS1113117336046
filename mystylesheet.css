@@ -79,3 +79,7 @@ label{
     background-color: #28a745;
     border-color: #28a745;
 }
+
+.btn-right{
+    margin-left: 100%;
+}

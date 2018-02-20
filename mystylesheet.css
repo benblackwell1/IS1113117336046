@@ -78,6 +78,41 @@ label{
 }
 
 .btn-right{
-    right: 0px;
+    left:80%;
     position:absolute;
+}
+
+.btn-left{
+    left:20%;
+    position:absolute;
+}
+
+#div-center{
+    position: relative;
+    left: 45%;
+}
+
+#div-text-center{
+    position: relative;
+    left: 45%;
+}
+
+
+
+.img-resize{
+    width: auto;
+    height: 50%;
+    float: left;
+    position: absolute;
+    top: 90px;
+    left:20px;
+}
+
+.img-resize2{
+    width: auto;
+    height: 50%;
+    float: right;
+    position: absolute;
+    top: 90px;
+    left: 1000px
 }

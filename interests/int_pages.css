@@ -1,5 +1,5 @@
 #section1{
-    background-image:url(https://images2.alphacoders.com/441/441501.jpg);
+    background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Color_banner.svg/750px-Color_banner.svg.png);
     background-size:cover;
             background-repeat:no-repeat;
             width:100%;
@@ -33,15 +33,27 @@
 }
 
 #cloud-section1{
-    background-color: rgb(238, 0, 90);
+    background-image:url(https://www.desktopbackground.org/download/o/2010/04/27/8714_download-free-sky-blue-backgrounds-hd-wallpapers-ubaid-sheikh_1280x800_h.jpg);
+    background-size:cover;
+            background-repeat:no-repeat;
+            width:100%;
+            height:100%;
 }
 
 #cloud-section2{
-    background-color: rgb(44, 62, 80);
+    background-image:url(https://www.desktopbackground.org/download/o/2010/04/27/8714_download-free-sky-blue-backgrounds-hd-wallpapers-ubaid-sheikh_1280x800_h.jpg);
+    background-size:cover;
+            background-repeat:no-repeat;
+            width:100%;
+            height:100%;
 }
 
 #cloud-section3{
-    background-color: rgb(51, 153, 204);
+    background-image:url(https://www.desktopbackground.org/download/o/2010/04/27/8714_download-free-sky-blue-backgrounds-hd-wallpapers-ubaid-sheikh_1280x800_h.jpg);
+    background-size:cover;
+            background-repeat:no-repeat;
+            width:100%;
+            height:100%;
 }
 
 .list-center{
@@ -49,8 +61,8 @@
 }
 
 .cloud-div{
-    top: 55%;
-    right: 30%;
+    top: 52.5%;
+    left: 65%;
     position: absolute;
 }
 

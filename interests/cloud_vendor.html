@@ -28,9 +28,106 @@
                                          });
         </script>
         
+        <!--nav bar obtained from w3schools (https://www.w3schools.com/css/css_navbar.asp)-->
+        <style>
+                .ul {
+                    list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+                    overflow: hidden;
+                    background-color: #333;
+                    position: fixed;
+                    z-index: 100;
+                    width: 100%;
+                    }
+
+                .li {
+                    float: left;
+                    }
+
+                .li .a, .dropbtn{
+                    display: inline-block;
+                    color: white;
+                    text-align: center;
+                    padding: 14px 16px;
+                    text-decoration: none;
+                    }
+
+                .li .a:hover, .dropdown:hover .dropbtn{
+                    background-color: black;
+                    }
+                
+                .li.dropdown{
+                    display: inline-block;
+                }
+                
+                .dropdown-content{
+                    display: none;
+                    position: absolute;
+                    background-color:  #f9f9f9;
+                    min-width: 160px;
+                    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                    z-index: 1;
+                }
+                
+                .dropdown-content .a {
+                    color: black;
+                    padding: 12px 16px;
+                    text-decoration: none;
+                    display: block;
+                    text-align: left;
+                }
+                
+                .dropdown-content .a:hover{background-color: #f1f1f1;}
+                
+                .dropdown:hover .dropdown-content{
+                    display: block;
+                }
+                
+                .activated{
+                    background-color: 	#1E90FF;
+                }    
+                    
+        </style>
+        
     </head>
     
     <body>
+        
+        <ul class="ul">
+        <li class="li">
+            <a class="a" href="../homepage.html">Home </a>
+        </li>
+        
+        <li class="li">
+            <a href="../cv/cv_page1.html" class="a">Curriculum Vitae </a>
+        </li>
+        
+        <li class="li">
+            <a class="a" href="sports.html">Sports</a>
+        </li>
+        
+        <li class="li">
+            <a class="a" href="travel.html">Travel</a>
+        </li>
+        
+        <li class="li">
+            <a class="activated a" href="cloud_vendor.html">Cloud</a>
+        </li>
+        
+        <li class="li">
+            <a class="a" href="../ebusiness/Ebus1.php">Ebus</a>
+        </li>
+        
+        <li class="li">
+            <a class="a" href="https://is1113117336046.herokuapp.com/">is1113117336046.herokuapp.com</a>
+        </li>
+            
+        <li class="li">
+            <a class="a" href="https://github.com/benblackwell1/IS1113117336046/graphs/commit-activity">Github</a>
+        </li>    
+    </ul> 
+    
 <div id="pagepiling2">
             
             
@@ -129,7 +226,7 @@
          acquired by Amazon.</p>
         <a class="a2" href="https://aws.amazon.com/cloud9/">Link to Cloud9</a>
         
-       
+      
         
         
         <h3 class="subheading">Infrastructure as a Service:</h3>
@@ -143,7 +240,6 @@
             Link to AWS
         </a>
         
-       
         
         
         <h3 class="subheading">Communication as a Service:</h3>

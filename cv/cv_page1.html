@@ -2,14 +2,13 @@
 <html>
     <head>
         
-        <!--Adding background-->
+      
+        
+        
+        <!--Background-->
         <style>
-            body {
+            body{
                 background-image: url("http://all4desktop.com/data_images/original/4236532-background-images.jpg");
-            
-            }
-            p{
-                text-align: center;
             }
         </style>
         
@@ -25,25 +24,106 @@
     
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
  
+         
+        <!--nav bar obtained from w3schools (https://www.w3schools.com/css/css_navbar.asp)-->
+        <style>
+                ul {
+                    list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+                    overflow: hidden;
+                    background-color: #333;
+                    }
+
+                li {
+                    float: left;
+                    }
+
+                li a{
+                    display: inline-block;
+                    color: white;
+                    text-align: center;
+                    padding: 14px 16px;
+                    text-decoration: none;
+                    }
+
+                li a:hover{
+                    background-color: black;
+                    }
+                
+                .active{
+                    background-color: 	#1E90FF;
+                }    
+                    
+        </style>
+         
+ 
+ 
+ 
     </head>
     <body>
+        
+            
+    <ul>
+        <li>
+            <a  href="../homepage.html">Home </a>
+        </li>
+        
+        <li class="active">
+            <a href="cv_page1.html" >Curriculum Vitae </a>
+        </li>
+        
+        <li>
+            <a href="../interests/sports.html">Sports</a>
+        </li>
+        
+        <li>
+            <a href="../interests/travel.html">Travel</a>
+        </li>
+        
+        <li>
+            <a href="../interests/cloud.html">Cloud</a>
+        </li>
+        
+        <li>
+            <a href="../ebusiness/Ebus1.php">Ebus</a>
+        </li>
+        
+        <li>
+            <a href="https://is1113117336046.herokuapp.com/">is1113117336046.herokuapp.com</a>
+        </li>
+            
+        <li>
+            <a href="https://github.com/benblackwell1/IS1113117336046/graphs/commit-activity">Github</a>
+        </li>    
+    </ul> 
+        
+        <br>
+        <br>
+        
+       
+        
         <h1 class="mainheading">Personal Details</h1>
         
         <br>
+    <div style="position: absolute; right: 60%">
+        <img src="https://www.sonypark360.net/wp-content/uploads/2017/08/profile-pictures.png">
+    </div>
         
+    <div style="position: absolute; left: 45%">
         <p><strong>Name:</strong> Ben Blackwell</p>
-        <p style="text-indent: -5px;"><strong>Address:</strong> **********</p>
-        <p style="text-indent: -3px;"><strong>Phone:</strong> 9999999999</p>
-        <p style="text-indent: 25px;"><strong>Email:</strong> 12345@email.com</p>
-        <p style="text-indent: -111px;"><strong>Age:</strong> 19</p>
-        <p style="text-indent: 15px;"><strong>Date of Birth:</strong> **/**/****</p>
-        
+        <p><strong>Address:</strong> **********</p>
+        <p><strong>Phone:</strong> 9999999999</p>
+        <p><strong>Email:</strong> 12345@email.com</p>
+        <p><strong>Age:</strong> 19</p>
+        <p><strong>Date of Birth:</strong> **/**/****</p>
+    </div>     
         <br/>
     
+    <div>
+        <a href="cv_page2.html"
+        class="btn btn-dark btn-right">Next</a>
+    </div>    
         
-        <a href="../homepage.html" class="btn btn-dark btn-left">Back</a>
-    
-        <a href="cv_page2.html" class="btn btn-dark btn-right">Next</a>
-    
     </body>
 </html>

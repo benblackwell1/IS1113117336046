@@ -2,19 +2,20 @@
 <html>
     <head>
         
-        <!--Adding background-->
-        <style>
-            body {
-                background-image: url("http://all4desktop.com/data_images/original/4236532-background-images.jpg");
-            }
-        </style>
-        
+       
         <!--border for table-->
         <style>
                 table, th, td {
                                 border: 1px solid black;
                 }
                
+        </style>
+        
+        <!--Background-->
+        <style>
+            body{
+                background-image: url("http://all4desktop.com/data_images/original/4236532-background-images.jpg");
+            }
         </style>
         
         <style>
@@ -40,11 +41,91 @@
     
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
  
+         
+          <!--nav bar obtained from w3schools (https://www.w3schools.com/css/css_navbar.asp)-->
+        <style>
+                ul {
+                    list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+                    overflow: hidden;
+                    background-color: #333;
+                    position: fixed;
+                    top: 0;
+                    width: 100%;
+                    }
+
+                li {
+                    float: left;
+                    }
+
+                li a {
+                    display: block;
+                    color: white;
+                    text-align: center;
+                    padding: 14px 16px;
+                    text-decoration: none;
+                    }
+
+                li a:hover {
+                    background-color: black;
+                    }
+                
+                .active{
+                    background-color: 	#1E90FF;
+                }    
+                    
+        </style>
+         
+ 
+ 
+ 
     </head>
     
     <body>
-        <h1 class="mainheading">Educational Details</h1>
         
+        <ul>
+        <li>
+            <a  href="../homepage.html">Home </a>
+        </li>
+        
+        <li>
+            <a class="active" href="cv_page2.html">Curriculum Vitae </a>
+        </li>
+        
+        <li>
+            <a href="../interests/sports.html">Sports</a>
+        </li>
+        
+        <li>
+            <a href="../interests/travel.html">Travel</a>
+        </li>
+        
+        <li>
+            <a href="../interests/cloud.html">Cloud</a>
+        </li>
+        
+        <li>
+            <a href="../ebusiness/Ebus1.php">Ebus</a>
+        </li>
+        
+        <li>
+            <a href="https://is1113117336046.herokuapp.com/">is1113117336046.herokuapp.com</a>
+        </li>
+            
+        <li>
+            <a href="https://github.com/benblackwell1/IS1113117336046/graphs/commit-activity">Github</a>
+        </li>    
+    </ul> 
+    
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+        <h1 class="mainheading">Educational Details</h1>
+        <br>
         <br/>
         
         <h2><ins>Secondary School</ins></h2>
@@ -64,9 +145,9 @@
         <p>
             
             
-            <p style="position: absolute; left: 400px; top: 150px"><strong>Leaving Certificate:</strong></p>
+            <p style="position: absolute; left: 400px; top: 300px"><strong>Leaving Certificate:</strong></p>
             
-            <table style="position: absolute; left: 600px; top: 200px">
+            <table style="position: absolute; left: 600px; top: 350px">
                 <th>Subjects</th>
                 <th>Grade</th>
                     <tr>
@@ -118,10 +199,13 @@
         
         <br/>
         
-        
-        
-        <a href="cv_page1.html" class="btn btn-dark" style="position: absolute; left: 200px">Back</a>
-        <a href="cv_page3.html" class="btn btn-dark" style="position: absolute; left: 1200px;" >Next</a>
+    <div>
+        <a class="btn btn-dark btn-right" href="cv_page3.html">Next</a>
+    </div> 
+    
+    <div>
+        <a class="btn btn-dark btn-left" href="cv_page1.html">Back</a>
+    </div>   
     </body>
     
 </html>

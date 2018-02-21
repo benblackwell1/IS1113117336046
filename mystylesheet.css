@@ -1,5 +1,6 @@
 .mainheading{
      text-align: center;
+     
 }
 
 
@@ -11,12 +12,6 @@ ol{
     list-style-position: outside;
     margin: 150px;
 }
-
-li{
-    text-align: left;
-    
-}
-
 
 label{
     font-family: Arial, Helvetica, sans-serif;
@@ -78,18 +73,21 @@ label{
 }
 
 .btn-right{
+    top:10%;
     left:80%;
     position:absolute;
 }
 
 .btn-left{
+    top: 10%;
     left:20%;
     position:absolute;
 }
 
 #div-center{
-    position: relative;
+    position: absolute;
     left: 45%;
+    
 }
 
 #div-text-center{
@@ -104,7 +102,7 @@ label{
     height: 50%;
     float: left;
     position: absolute;
-    top: 90px;
+    top: 200px;
     left:20px;
 }
 
@@ -113,6 +111,7 @@ label{
     height: 50%;
     float: right;
     position: absolute;
-    top: 90px;
+    top: 200px;
     left: 1000px
 }
+

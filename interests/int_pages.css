@@ -29,5 +29,28 @@
 .section{
     text-align: center;
     color: Black;
+    
+}
+
+#cloud-section1{
+    background-color: rgb(238, 0, 90);
+}
+
+#cloud-section2{
+    background-color: rgb(44, 62, 80);
+}
+
+#cloud-section3{
+    background-color: rgb(51, 153, 204);
+}
+
+.list-center{
+    left: 50;
+}
+
+.cloud-div{
+    top: 55%;
+    right: 30%;
+    position: absolute;
 }
 

@@ -7,6 +7,10 @@
             body {
                 background-image: url("http://all4desktop.com/data_images/original/4236532-background-images.jpg");
             }
+            p{
+               margin-left:10%;
+               margin-right: 10%;
+            }
         </style>
         
         <title>Travel</title>
@@ -31,25 +35,125 @@
                                          });
         </script>
         
+         <!--nav bar obtained from w3schools (https://www.w3schools.com/css/css_navbar.asp)-->
+        <style>
+                .ul {
+                    list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+                    overflow: hidden;
+                    background-color: #333;
+                    position: fixed;
+                    z-index: 100;
+                    width: 100%;
+                    }
+
+                .li {
+                    float: left;
+                    }
+
+                .li .a, .dropbtn{
+                    display: inline-block;
+                    color: white;
+                    text-align: center;
+                    padding: 14px 16px;
+                    text-decoration: none;
+                    }
+
+                .li .a:hover, .dropdown:hover .dropbtn{
+                    background-color: black;
+                    }
+                
+                .li.dropdown{
+                    display: inline-block;
+                }
+                
+                .dropdown-content{
+                    display: none;
+                    position: absolute;
+                    background-color:  #f9f9f9;
+                    min-width: 160px;
+                    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                    z-index: 1;
+                }
+                
+                .dropdown-content .a {
+                    color: black;
+                    padding: 12px 16px;
+                    text-decoration: none;
+                    display: block;
+                    text-align: left;
+                }
+                
+                .dropdown-content .a:hover{background-color: #f1f1f1;}
+                
+                .dropdown:hover .dropdown-content{
+                    display: block;
+                }
+                
+                .activated{
+                    background-color: 	#1E90FF;
+                }    
+                    
+        </style>
+        
     </head>
     
     <body>
         
+         <ul class="ul">
+        <li class="li">
+            <a class="a" href="../homepage.html">Home </a>
+        </li>
+        
+        <li class="li">
+            <a href="../cv/cv_page1.html" class="a">Curriculum Vitae </a>
+        </li>
+        
+        <li class="li">
+            <a class="a" href="sports.html">Sports</a>
+        </li>
+        
+        <li class="li">
+            <a class="activated a" href="travel.html">Travel</a>
+        </li>
+        
+        <li class="li">
+            <a class="a" href="cloud_vendor.html">Cloud</a>
+        </li>
+        
+        <li class="li">
+            <a class="a" href="../ebusiness/Ebus1.php">Ebus</a>
+        </li>
+        
+        <li class="li">
+            <a class="a" href="https://is1113117336046.herokuapp.com/">is1113117336046.herokuapp.com</a>
+        </li>
+            
+        <li class="li">
+            <a class="a" href="https://github.com/benblackwell1/IS1113117336046/graphs/commit-activity">Github</a>
+        </li>    
+    </ul> 
+    
+    
         <div id="pagepiling">
 	        <div class="section" id="section1"><strong>Most travelled to:</strong> Spain
 
 	        <p>Spain is a beutiful country with their culture and people who are
-	        very friendly and welcoming.
-	        <br/>
+	        very friendly and welcoming. I have visted Spain many times and would
+	        like to visit there again.
+	        
 	        <em><strong>Nice Points on Spain:</strong></em>
+	                 <div class="spain-div">      
 	                       <em>
-	                            <ol>
+	                            <ol style="text-align: left;">
 	                                <li>Food</li>
 	                                <li>Weather</li>
 	                                <li>Prices are cheap</li>
 	                                <li>Great nightlife for young people</li>
 	                            </ol>
 	                       </em>
+	                 </div>      
 	        </div>
 	        
 	        <div class="section" id="section2"><strong>Want to visit:</strong> Canada

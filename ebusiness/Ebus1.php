@@ -35,9 +35,16 @@
                
               <label for="gmail">
                 <input type="radio" id="gmail" name="product" onClick="disablebtnProceed()">
-                Gmail @ $275
+                Gmail Services @ $275
               </label>
             
+              <label for="akamai">
+                <input type="radio" id="akamai" name="product" onClick="disablebtnProceed()">
+                Akamai @ $175
+              </label>
+            
+              <br>
+              
               <br>
               <br>
               

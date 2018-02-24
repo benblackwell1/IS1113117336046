@@ -9,7 +9,7 @@
         <script type="text/javascript" src="cost_calc.js"></script>
         
         
-        <!--style for the php page-->
+        <!--style for ebus1 page-->
         <style>
           h1{
             text-align: center;
@@ -19,6 +19,11 @@
             text-align: left;
             margin-left: 10%;
           }
+          
+          .move{
+            margin-left: 10%;
+          }
+          
           body{
             background-image: url("https://all4desktop.com/data_images/original/4236532-background-images.jpg");
             }
@@ -93,9 +98,9 @@
               
               <br>
             
-              <label for="akamai">
-                <input type="radio" id="akamai" name="product" onClick="disablebtnProceed()">
-                Akamai @ $175
+              <label for="cloud9">
+                <input type="radio" id="cloud9" name="product" onClick="disablebtnProceed()">
+                Cloud 9 @ $175
               </label>
             
               <br>
@@ -138,7 +143,7 @@
             
             <br>
             
-            <button onClick="calcSub()">Calculate Cost</button>
+            <button class="move" onClick="calcSub()">Calculate Cost</button>
             <a class="button" role="button" href="Ebus1.php">Clear Choice</a>
     
     </body>

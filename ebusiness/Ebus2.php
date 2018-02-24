@@ -9,12 +9,28 @@ session_start();
         <link rel="stylesheet" href="../mystylesheet.css" type="text/css"/>
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <style>
+         body{
+            background-image: url("https://all4desktop.com/data_images/original/4236532-background-images.jpg");
+            }
+            
+             h4{
+            text-align: left;
+            margin-left: 10%;
+            }
+            
+            .move{
+            margin-left: 10%;
+            }
+    </style>
+    
     </head>
+    
     <body>
-        <h4>Please enter your payment details</h4>
+        <h4>Please enter your payment details:</h4>
         
         
-            <form action="Ebus3.php" method="POST">
+            <form class="move" action="Ebus3.php" method="POST">
 
                     <label for="user_pin">PIN</label>
                     <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
@@ -24,7 +40,7 @@ session_start();
             </form>
             
             <br/>
-            <button onClick="validateDetails()">Validate</button>
+            <button class="move" onClick="validateDetails()">Validate</button>
             
         </div>
         

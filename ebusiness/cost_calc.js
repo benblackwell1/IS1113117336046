@@ -13,7 +13,7 @@
      else if (document.getElementById('gmail').checked){
          argSubTotal = 275;
      }
-     else if (document.getElementById('akamai').checked){
+     else if (document.getElementById('cloud9').checked){
          argSubTotal= 175;
      }
      else if (document.getElementById('aws').checked){
@@ -24,6 +24,7 @@
     }
      
      display(argSubTotal, vat);
+     
     }
     
     
@@ -37,7 +38,6 @@
  }
  
 
- 
  function enablebtnProceed(){
      $('#btnProceed').prop('disabled', false);
  }

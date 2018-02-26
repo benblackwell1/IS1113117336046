@@ -6,6 +6,9 @@ session_start();
         <head>
             <title>RECEIPT</title>
             <link rel="stylesheet" href="../mystylesheet.css" type="text/css"/>
+            <!--adding browser icon-->
+            <link rel="icon" href="https://d30y9cdsu7xlg0.cloudfront.net/png/28468-200.png" />
+            
                 <style>
                         body{
                         background-image: url("https://all4desktop.com/data_images/original/4236532-background-images.jpg");

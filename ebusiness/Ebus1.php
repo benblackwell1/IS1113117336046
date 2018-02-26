@@ -3,6 +3,8 @@
     <head>
         <title>Select Product</title>
         <link rel="stylesheet" href="../mystylesheet.css" type="text/css"/>
+        <!--adding browser icon-->
+            <link rel="icon" href="https://d30y9cdsu7xlg0.cloudfront.net/png/28468-200.png" />
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

@@ -1,6 +1,7 @@
 /* global $ */
  
  var vat = .10 // global variable
+ var discount = .05 //global variable
  
  function calcSub(){
      
@@ -23,16 +24,19 @@
          error = 0.00;
     }
      
-     display(argSubTotal, vat);
+     display(argSubTotal, vat, discount);
      
     }
     
     
- function display(parm1, parm2){
+ function display(parm1, parm2, parm3){
      
-     document.getElementById("subtotal").value = parm1;
-     document.getElementById("vat").value = parm1 * parm2
-     document.getElementById("total").value = parm1 + (parm1 * parm2);
+     document.getElementById("subtotal").value = parm1.toFixed(2);
+     document.getElementById("vat").value = (parm1 * parm2).toFixed(2);
+     document.getElementById("discount").value = ((parm1 + (parm1 * parm2)) * parm3).toFixed(2);
+     document.getElementById("total").value = (parm1 + (parm1 * parm2)) - ((parm1 + (parm1 * parm2)) * parm3).toFixed(2);
+      /* code for rounding number to 2 decimal places obtained from stackoverflow
+      (https://stackoverflow.com/questions/25224129/round-every-textbox-to-2-decimal-places) */
       
       enablebtnProceed();
  }

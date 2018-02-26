@@ -15,8 +15,7 @@ session_start();
             }
             
              h4{
-            text-align: left;
-            margin-left: 10%;
+            text-align: center;
             }
             
             .move{

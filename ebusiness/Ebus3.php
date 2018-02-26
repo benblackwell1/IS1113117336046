@@ -24,6 +24,8 @@ session_start();
         //Echo session variables that were set on the previous page
         echo "Total is " . $_SESSION["total"] . ".";
         ?>
+        <br>
+        <p><em>Thank you for shopping with us!</em></p>
     </body>
     <a class="btn btn-success btn-right" href="../homepage.html">Home</a>
 </html>

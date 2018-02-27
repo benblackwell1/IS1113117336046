@@ -1,6 +1,6 @@
 <?php
 session_start();
- $_SESSION["email"] = $_POST["email"]
+ $_SESSION["emailaddress"] = $_POST["emailaddress"]
 ?>
 <?php
 $_SESSION["fullname"] = $_POST["fullname"]
@@ -33,7 +33,7 @@ $_SESSION["fullname"] = $_POST["fullname"]
         ?>
         <br>
         <?php
-        echo "Your Email is " . $_SESSION["email"] . "."
+        echo "Your Email is " . $_SESSION["emailaddress"] . "."
         ?>
         <br>
         <?php

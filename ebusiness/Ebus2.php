@@ -41,7 +41,7 @@ session_start();
                     <br>
                     
                     <label for="user_email">Email:</label>
-                    <input type="text" id="user_email" name="email" placeholder="Email">
+                    <input type="text" id="user_email" name="emailaddress" placeholder="Email">
                     
                     <br>
                     <br>
@@ -55,7 +55,7 @@ session_start();
             </form>
             
             <br/>
-            <button class="move" onClick="validateDetails()">Validate</button>
+            <button class="move" onClick="validateFullName()">Validate</button>
             
         </div>
         

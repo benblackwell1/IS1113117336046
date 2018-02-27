@@ -5,7 +5,7 @@
         <title>117336046</title>
         <!--adding browser tab icon-->
         <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Home_font_awesome.svg/512px-Home_font_awesome.svg.png">
-       
+        <link rel="stylesheet" type="text/css" href="moving_text.css">
         <!--style for the h1 tag (embedded css)-->
         <style>
             h1{
@@ -24,7 +24,7 @@
         
         <!--nav bar obtained from w3schools (https://www.w3schools.com/css/css_navbar.asp)-->
         <style>
-                ul {
+                .ulNAV {
                     list-style-type: none;
                     margin: 0;
                     padding: 0;
@@ -32,11 +32,11 @@
                     background-color: #333;
                     }
 
-                li {
+                .liNAV {
                     float: left;
                     }
 
-                li a, .dropbtn{
+                .liNAV a, .dropbtn{
                     display: inline-block;
                     color: white;
                     text-align: center;
@@ -44,11 +44,11 @@
                     text-decoration: none;
                     }
 
-                li a:hover, .dropdown:hover .dropbtn{
+                .liNAV a:hover, .dropdown:hover .dropbtn{
                     background-color: black;
                     }
                 
-                li.dropdown{
+                .liNAV.dropdown{
                     display: inline-block;
                 }
                 
@@ -100,12 +100,12 @@
     
         
         
-    <ul>
-        <li>
+    <ul class="ulNAV">
+        <li class="liNAV">
             <a class="active" href="homepage.html">Home </a>
         </li>
         
-        <li class="dropdown">
+        <li class="dropdown liNAV">
             <a href="javascript:void(0) " class="dropbtn">Curriculum Vitae </a>
             <div class="dropdown-content">
                 <a href="cv/cv_page1.html">CV Page 1</a>
@@ -115,7 +115,7 @@
         </li>
         
         
-        <li class="dropdown">
+        <li class="dropdown liNAV">
              <a href="javascript:void(0) " class="dropbtn">Interests</a>
              <div class="dropdown-content">
                  <a href="interests/travel.html">Travel Page 1</a>
@@ -123,29 +123,40 @@
                  <a href="interests/sports.html">Sports</a>
         </li>
         
-        <li>
+        <li class="liNAV">
             <a href="interests/cloud_vendor.html">Cloud</a>
         </li>
         
         
-        <li>
-            <a href="https://is1113117336046.herokuapp.com/">is1113117336046.herokuapp.com</a>
+        <li class="liNAV">
+            <a href="https://is1113117336046.herokuapp.com/">Heroku</a>
         </li>
             
-        <li>
+        <li class="liNAV">
             <a href="https://github.com/benblackwell1/IS1113117336046/graphs/commit-activity">Github</a>
         </li>    
     </ul> 
     <br>
     <br>
-    <br>
-    <br>
     
-    <h1>117336046 - IS1113 Project</h1>
+    
+    <h1 style="color: black;">117336046 - IS1113 Project</h1>
+        <div class='content'>
+            <div class='visible'>
+                <p class="p">
+                  Hello
+                </p>
+                    <ul class="ul">
+                      <li class="li">world !</li>
+                      <li>You !</li>
+                      <li>Ivan !</li>
+                    </ul>
+            </div>
+        </div>
     
     
     <div class="footer">
-        <p>Copy Right - Ben Blackwell</p>
+        <p >Copy Right - Ben Blackwell</p>
     </div>
 </body>
 </html>

@@ -73,9 +73,10 @@
                 
                 /*code for page footer */
                 .footer {
-                   position: fixed;
+                   position: relative;
                    left: 0;
                    bottom: 0;
+                   height: 50px;
                    width: 100%;
                    background-color: #333;
                    color: grey;
@@ -100,8 +101,13 @@
             </div>
         </li>
         
-        <li>
-            <a class="active" href="sports.html">Interests</a>
+        <li class="dropdown active">
+            <a href="javascript:void(0) " class="dropbtn">Interests </a>
+            <div class="dropdown-content">
+                <a href="travel.html">Travel Page 1</a>
+                <a href="travel_page2.html">Travel Page 2</a>
+                <a href="sports.html">Sport</a>
+            </div>
         </li>
         
         <li>
@@ -109,7 +115,7 @@
         </li>
 
         <li>
-            <a href="https://is1113117336046.herokuapp.com/">is1113117336046.herokuapp.com</a>
+            <a href="https://is1113117336046.herokuapp.com/">Heroku</a>
         </li>
             
         <li>
@@ -183,13 +189,6 @@
         <br>
         <br>
         <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-    
         <a class="btn btn-success btn-right" href="../homepage.html">Home</a>
         <div class="footer">
             <p>Copy Right - Ben Blackwell</p>

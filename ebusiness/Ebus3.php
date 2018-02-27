@@ -2,6 +2,9 @@
 session_start();
  $_SESSION["email"] = $_POST["email"]
 ?>
+<?php
+$_SESSION["fullname"] = $_POST["fullname"]
+?>
 <!DOCTYPE html>
 <html>
         <head>
@@ -27,7 +30,14 @@ session_start();
         <?php
         //Echo session variables that were set on the previous page
         echo "Total is " . $_SESSION["total"] . ".";
+        ?>
+        <br>
+        <?php
         echo "Your Email is " . $_SESSION["email"] . "."
+        ?>
+        <br>
+        <?php
+        echo "Your Name is " . $_SESSION["fullname"]
         ?>
        
         <br>

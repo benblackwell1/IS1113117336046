@@ -42,6 +42,13 @@ session_start();
                     
                     <label for="user_email">Email:</label>
                     <input type="text" id="user_email" name="email" placeholder="Email">
+                    
+                    <br>
+                    <br>
+                    
+                    <label for="user_name">Full Name:</label>
+                    <input type="text" id="user_name" name="fullname" placeholder="Full Name">
+                    
  
                 <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
               

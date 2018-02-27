@@ -1,5 +1,6 @@
 <?php
 session_start();
+ $_SESSION["email"] = $_POST["email"]
 ?>
 <!DOCTYPE html>
 <html>
@@ -26,7 +27,9 @@ session_start();
         <?php
         //Echo session variables that were set on the previous page
         echo "Total is " . $_SESSION["total"] . ".";
+        echo "Your Email is " . $_SESSION["email"] . "."
         ?>
+       
         <br>
         <p><em>Thank you for shopping with us!</em></p>
     </body>

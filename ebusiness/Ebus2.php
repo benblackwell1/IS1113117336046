@@ -34,9 +34,15 @@ session_start();
         
             <form class="move" action="Ebus3.php" method="POST">
 
-                    <label for="user_pin">PIN</label>
+                    <label for="user_pin">PIN:</label>
                     <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
-
+                    
+                    <br>
+                    <br>
+                    
+                    <label for="user_email">Email:</label>
+                    <input type="text" id="user_email" name="email" placeholder="Email">
+ 
                 <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
               
             </form>
@@ -52,5 +58,7 @@ session_start();
         //set session variables
         $_SESSION["total"] = $_POST["total"];
         ?>
+        
+        
     </body>
 </html>

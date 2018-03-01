@@ -106,7 +106,7 @@ label{
 
 .img-resize2{
     width: auto;
-    height: 50%;
+    height: 40%;
     float: right;
     position: absolute;
     top: 200px;
@@ -135,4 +135,37 @@ label{
 .shop{
     position: absolute;
     left: 40%;
+}
+
+.btn-right2{
+    top:20%;
+    left:80%;
+    position:absolute;
+}
+
+.ben-pic{
+    position: absolute;
+    width: 20%;
+    height: auto;
+    left: 20%;
+}
+
+.p{
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: #33ccff;
+}
+
+.back{
+    background-color: #33ccff;
+    width: 280px;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+
+.back2{
+    background-color: #33ccff;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 12px;
 }

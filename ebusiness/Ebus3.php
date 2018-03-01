@@ -29,7 +29,7 @@ $_SESSION["fullname"] = $_POST["fullname"]
         
         <?php
         //Echo session variables that were set on the previous page
-        echo "Total is: €" . $_SESSION["total"] . ".";
+        echo "Total is: " . "&euro;" . $_SESSION["total"] . ".";
         ?>
         <br>
         <br>

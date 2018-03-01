@@ -7,14 +7,26 @@ function validateFullName(){
      fullname = document.getElementById("user_name").value;
      
      
-     if (fullname == ""){
-        alert("Please enter your PIN");
+     if (fullname.value.length == 0){
+        alert("Please enter your Name");
+        fullname.focus()
     }
-    else if (String(fullname).length < 4){
-        alert("Please make sure your PIN is accurate");
+    else if (validateAlphabet(fullname) == false){
+        alert("Please enter a valid Name")
     }
     else{
         validatePIN();
+    }
+}
+
+function validateAlphabet(name){
+    
+    var alphaExp = /^[a-zA-Z]+$/;
+    if(name.value.match(alphaExp)){
+        return true;
+    }
+    else{
+        return false;
     }
 }
 

@@ -6,7 +6,7 @@
  function calcSub(){
      
      var argSubTotal;
-     var error;
+    
      
      if(document.getElementById('salesForce').checked){
         argSubTotal = 100;
@@ -21,22 +21,41 @@
           argSubTotal = 300;
      }
      else{
-         error = 0.00;
-    }
-     
-     display(argSubTotal, vat, discount);
-     
+        alert("Please select a product!")
     }
     
+     calcDisVatTotal(argSubTotal)
+ 
+ }
+ 
+ 
+ function calcDisVatTotal(parmSubTotal){
     
- function display(parm1, parm2, parm3){
+    var vatAmt;
+    var discountAmt;
+    var subTotal;
+    var totalPrice;
+    
+    vatAmt = (parmSubTotal * vat).toFixed(2) 
+    
+    discountAmt = ((parmSubTotal + vatAmt) * discount).toFixed(2)
+    
+    subTotal = parmSubTotal.toFixed(2)
+    
+    totalPrice = ((subTotal + vatAmt) - discountAmt).toFixed(2)
+   
+  display(vatAmt, discountAmt, subTotal, totalPrice);
+ }
+ /* code for rounding number to 2 decimal places obtained from stackoverflow
+ (https://stackoverflow.com/questions/25224129/round-every-textbox-to-2-decimal-places) */
+ 
+    
+ function display(parm1, parm2, parm3, parm4){
      
-     document.getElementById("subtotal").value = parm1.toFixed(2);
-     document.getElementById("vat").value = (parm1 * parm2).toFixed(2);
-     document.getElementById("discount").value = ((parm1 + (parm1 * parm2)) * parm3).toFixed(2);
-     document.getElementById("total").value = (parm1 + (parm1 * parm2)) - ((parm1 + (parm1 * parm2)) * parm3).toFixed(2);
-      /* code for rounding number to 2 decimal places obtained from stackoverflow
-      (https://stackoverflow.com/questions/25224129/round-every-textbox-to-2-decimal-places) */
+     document.getElementById("vat").value = parm1;
+     document.getElementById("discount").value = parm2;
+     document.getElementById("subtotal").value = parm3;
+     document.getElementById("total").value = parm4;
       
       enablebtnProceed();
  }

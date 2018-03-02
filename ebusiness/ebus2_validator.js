@@ -19,6 +19,8 @@ function validateFullName(){
     }
 }
 
+/* Code obtained for the alphabet function
+https://www.formget.com/form-validation-using-javascript/*/
 function validateAlphabet(name){
     
     var alphaExp = /^[a-zA-Z]+$/;

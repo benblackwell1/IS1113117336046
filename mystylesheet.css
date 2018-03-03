@@ -31,14 +31,8 @@ label{
 }
 
 
-.button {
-    border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
-    border-style: solid;
-    border-width: 1px;
-    padding: 1px 7px 2px;
-    color: black;
+.button-red{
     background-color: red;
-    border-radius: .25rem;
 }
 
 .btn-dark {
@@ -168,4 +162,12 @@ label{
     width: 150px;
     border: 2px solid black;
     border-radius: 12px;
+}
+
+.button-yellow{
+    background-color: yellow;
+}
+
+.button-green{
+    background-color: green;
 }

@@ -143,7 +143,7 @@
               <br>
               
               
-              <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
+              <button type="submit button-green" id="btnProceed" disabled>Add to Shopping Cart</button>
               <br>
               <br>
               
@@ -152,8 +152,8 @@
             
             <br>
             
-            <button class="move" onClick="calcSub()">Calculate Cost</button>
-            <a class="button" role="button" href="Ebus1.php">Clear Choice</a>
+            <button class="move button-yellow" onClick="calcSub()">Calculate Cost</button>
+            <button class="button-red" role="button" href="Ebus1.php">Clear Choice</button>
     
     </body>
 </html>

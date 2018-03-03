@@ -127,7 +127,7 @@
               <br>
               
               <label class="label" for="discount">
-                Discount @ 5%
+                Discount @ 5% 
                 <input  type="text" id="discount" value="0.00" readonly>
               </label>
               
@@ -143,7 +143,7 @@
               <br>
               
               
-              <button type="submit button-green" id="btnProceed" disabled>Add to Shopping Cart</button>
+              <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
               <br>
               <br>
               
@@ -152,7 +152,7 @@
             
             <br>
             
-            <button class="move button-yellow" onClick="calcSub()">Calculate Cost</button>
+            <button class="move" onClick="calcSub()">Calculate Cost</button>
             <a class="button-red" role="button" href="Ebus1.php">Clear Choice</a>
     
     </body>

@@ -37,6 +37,7 @@ label{
     border-width: 1px;
     padding: 1px 7px 2px;
     background-color: red;
+    color: black;
 }
 
 .btn-dark {

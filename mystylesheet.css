@@ -32,6 +32,10 @@ label{
 
 
 .button-red{
+    border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+    border-style: solid;
+    border-width: 1px;
+    padding: 1px 7px 2px;
     background-color: red;
 }
 

@@ -153,7 +153,7 @@
             <br>
             
             <button class="move button-yellow" onClick="calcSub()">Calculate Cost</button>
-            <button class="button-red" role="button" href="Ebus1.php">Clear Choice</button>
+            <a class="button-red" role="button" href="Ebus1.php">Clear Choice</a>
     
     </body>
 </html>

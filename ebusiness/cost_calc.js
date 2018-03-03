@@ -1,7 +1,6 @@
 /* global $ */
  
- var vat = .10 // global variable
- var discount = .05 //global variable
+
  
  function calcSub(){
      
@@ -36,13 +35,13 @@
     var subTotal;
     var totalPrice;
     
-    vatAmt = (parmSubTotal * vat).toFixed(2) 
+    vatAmt = parmSubTotal * .10
     
-    discountAmt = ((parmSubTotal + vatAmt) * discount).toFixed(2)
+    discountAmt = (parmSubTotal + (parmSubTotal * .10)) * .05
     
-    subTotal = parmSubTotal.toFixed(2)
+    subTotal = parmSubTotal
     
-    totalPrice = ((subTotal + vatAmt) - discountAmt).toFixed(2)
+    totalPrice = ((parmSubTotal + (parmSubTotal * .10)) - (parmSubTotal + (parmSubTotal * .10)) * .05)
    
   display(vatAmt, discountAmt, subTotal, totalPrice);
  }

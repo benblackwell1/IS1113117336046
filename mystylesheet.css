@@ -137,7 +137,8 @@ label{
 
 .shop{
     position: absolute;
-    left: 40%;
+    left: 60%;
+    top: 80%;
 }
 
 .btn-right2{
@@ -249,4 +250,31 @@ label{
     color: black;
     background-color: #e6b800;
     border-color: #e6b800;
+}
+
+.office-pic1{
+    float: right;
+    border-radius: 20px;
+    width: 40%;
+}
+.office-pic2{
+    position: absolute;
+    border-radius: 20px;
+    top: 55%;
+    left: 10%;
+    width: 30%;
+}
+.shop-left{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 40%;
+    font-size: 20px;
+}
+.shop-right{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    width: 40%;
+    font-size: 20px;
 }

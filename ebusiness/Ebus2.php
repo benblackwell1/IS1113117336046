@@ -12,6 +12,9 @@ session_start();
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        
+        <script type="text/javascript" src="ebus2_validator.js"></script>
+        
     <style>
          body{
             background-image: url("https://all4desktop.com/data_images/original/4236532-background-images.jpg");
@@ -93,16 +96,15 @@ session_start();
                     <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
          
          
-                <button class="move2" type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
+                    <button class="move2" type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
               
             </form>
             
-            <br/>
+            <br>
+            
             <button class="move" onClick="validatePIN()">Validate</button>
             
-        </div>
         
-        <script type="text/javascript" src="ebus2_validator.js"></script>
         
         <?php
         //set session variables

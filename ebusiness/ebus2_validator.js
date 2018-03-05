@@ -49,7 +49,7 @@ function validatePIN(){
     else{
         validateEmail();
     }
-}    
+}   
 
 
 function validateEmail(){

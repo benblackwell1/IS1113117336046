@@ -15,62 +15,7 @@ session_start();
         
         <script type="text/javascript" src="ebus2_validator.js"></script>
         
-    <style>
-         body{
-            background-image: url("https://all4desktop.com/data_images/original/4236532-background-images.jpg");
-            }
-            
-             h4{
-            text-align: center;
-            }
-            
-            .move{
-            margin-left: 10%;
-            }
-            
-            .move2{
-                margin-left: 50%;
-            }
-           
-             /**************************************************************************************************************/
-          /* code obtained form stackoverflow (https://stackoverflow.com/questions/13204002/align-form-elements-in-css) */
-          /**************************************************************************************************************/
-          form {
-            width: 80%;
-            margin: 0 auto;
-          }
-
-          .label, input[type=text] {
-            /* in order to define widths */
-            display: inline-block;
-          }
-
-          .label {
-            width: 7%;
-            /* positions the label text beside the input */
-            text-align: left;
-          }
-
-          .label + input[type=text] {
-            width: 25%;
-            /* large margin-right to force the next element to the new-line
-            and margin-left to create a gutter between the label and input */
-            margin: 0 30% 0 4%;
-          }
-          .label + input[type=password] {
-            width: 10%;
-            /* large margin-right to force the next element to the new-line
-            and margin-left to create a gutter between the label and input */
-            margin: 0 30% 0 4%;
-          }
-
-            /* only the submit button is matched by this selector,
-            but to be sure you could use an id or class for that button */
-          
-          input[type=text] + input[type=text] {
-            float: right;
-          }
-    </style>
+    
     
     </head>
     
@@ -97,13 +42,15 @@ session_start();
          
          
                     <button class="move2" type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
-              
+                    
+                    
             </form>
             
             <br>
             
-            <button class="move" onClick="validatePIN()">Validate</button>
+           <button onclick="validatePIN()">validate</button>
             
+        
         
         
         <?php

@@ -184,3 +184,78 @@ label{
     padding: 1px 7px 2px;
     background-color: green;
 }
+
+.label-name{
+    position: absolute;
+    left: 38%;
+    top: 10%;
+}
+     
+.input-name{
+    position: absolute;
+    left: 45%;
+    top: 10%;
+}    
+
+.label-email{
+    position: absolute;
+    left: 38%;
+    top: 15%;
+}
+     
+.input-email{
+    position: absolute;
+    left: 45%;
+    top: 15%;
+}   
+
+.label-pin{
+    position: absolute;
+    left: 38%;
+    top: 20%;
+}
+     
+.input-pin{
+    position: absolute;
+    left: 45%;
+    top: 20%;
+}    
+
+.btn-purchase{
+    position: absolute;
+    left: 60%;
+    top: 20%;
+}
+
+.btn-validate{
+    position: absolute;
+    left: 45%;
+   top: 25%;
+}
+
+.green-btn{
+    background-color: green;
+    border-radius: 6px;
+    border-style:none;
+    color: black;
+}
+
+.yellow-btn{
+    background-color: yellow;
+    border-radius: 6px;
+    border-style:none;
+    color: black;
+}
+
+.btn-red {
+    color: black;
+    background-color: #ff0000;
+    border-color: #ff0000;
+    text-decoration: none;
+}
+
+.btn-yellow {
+    color: black;
+    background-color: #e6b800;
+    border-color: #e6b800;
+}

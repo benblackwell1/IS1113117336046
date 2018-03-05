@@ -46,14 +46,14 @@ session_start();
                     <input class="input-pin" type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
          
          
-                    <button class="btn-purchase green-btn" type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
+                    <button class="btn-purchase btn btn-success" type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
                     
                     
             </form>
             
             <br>
             
-           <button class="btn-validate yellow-btn" onclick="validatePIN()">validate</button>
+           <button class="btn-validate btn btn-yellow" onclick="validatePIN()">validate</button>
             
         
         

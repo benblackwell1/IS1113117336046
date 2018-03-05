@@ -24,6 +24,7 @@
           
           .move{
             margin-left: 10%;
+           
           }
           
           body{
@@ -141,9 +142,10 @@
               
               
               <br>
+              <br>
               
               
-              <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
+              <button class="btn btn-success" type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
               <br>
               <br>
               

@@ -46,4 +46,5 @@ $_SESSION["fullname"] = $_POST["fullname"]
         <p><em>Thank you for shopping with us!</em></p>
     </body>
     <a class="btn btn-success btn-right" href="../homepage.html">Home</a>
+    
 </html>

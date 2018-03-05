@@ -98,7 +98,7 @@ session_start();
             </form>
             
             <br/>
-            <button class="move" onClick="validateFullName()">Validate</button>
+            <button class="move" onClick="validatePIN()">Validate</button>
             
         </div>
         

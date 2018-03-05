@@ -2,22 +2,23 @@
 
 function validateFullName(){
      
-     var fullname
+     var fullname;
      
      fullname = document.getElementById("user_name").value;
      
      
      if (fullname.value.length == 0){
         alert("Please enter your Name");
-        fullname.focus()
+        fullname.focus();
     }
     else if (validateAlphabet(fullname) == false){
-        alert("Please enter a valid Name")
+        alert("Please enter a valid Name");
     }
     else{
-        validatePIN();
+        enablebtnPurchase();
     }
 }
+
 
 /* Code obtained for the alphabet function
 https://www.formget.com/form-validation-using-javascript/*/
@@ -48,8 +49,8 @@ function validatePIN(){
     else{
         validateEmail();
     }
-    
-}
+}    
+
 
 function validateEmail(){
     
@@ -58,13 +59,13 @@ function validateEmail(){
     email = document.getElementById("user_email").value;
     
     if (email == ""){
-        alert("Please enter your Email Address")
+        alert("Please enter your Email Address");
     }
     else if (validateEmailLayout(email) == false){
-        alert("Please enter a valid Email Address")
+        alert("Please enter a valid Email Address");
     }
     else {
-        enablebtnPurchase()
+        validateFullName();
     }
 }
 
@@ -82,3 +83,4 @@ function enablebtnPurchase(){
 function disablebtnPurchase() {
     $('#btnPurchase').prop('disabled', true);
 }
+

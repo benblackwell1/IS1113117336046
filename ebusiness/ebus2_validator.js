@@ -1,5 +1,6 @@
 /* global $ */
 
+/*validating pin name and email*/
 function validatePIN(){
     
     var pin;

@@ -154,6 +154,7 @@
             
             <br>
             
+            <!--calling the function-->
             <button class="move btn btn-yellow" onClick="calcSub()">Calculate Cost</button>
             <a class="btn btn-red" role="button" href="Ebus1.php">Clear Choice</a>
             

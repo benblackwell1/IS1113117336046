@@ -1,5 +1,6 @@
 /* global $ */
  
+ /*appling values to the radio buttons*/
  function calcSub(){
      
      var argSubTotal;
@@ -18,14 +19,14 @@
           argSubTotal = 300;
      }
      else{
-        alert("Please select a product!")
+        alert("Please select a product!");
     }
     
-     calcDisVatTotal(argSubTotal)
+     calcDisVatTotal(argSubTotal);
  
  }
  
- 
+ /*calculating vat, discount and total*/
  function calcDisVatTotal(parmSubTotal){
     
     var vatAmt;
@@ -33,20 +34,19 @@
     var subTotal;
     var totalPrice;
     
-    vatAmt = parmSubTotal * .10
+    vatAmt = parmSubTotal * .10;
     
-    discountAmt = (parmSubTotal + (parmSubTotal * .10)) * .05
+    discountAmt = (parmSubTotal + (parmSubTotal * .10)) * .05;
     
-    subTotal = parmSubTotal
+    subTotal = parmSubTotal;
     
-    totalPrice = ((parmSubTotal + (parmSubTotal * .10)) - (parmSubTotal + (parmSubTotal * .10)) * .05)
+    totalPrice = ((parmSubTotal + (parmSubTotal * .10)) - (parmSubTotal + (parmSubTotal * .10)) * .05);
    
   display(vatAmt, discountAmt, subTotal, totalPrice);
  }
- /* code for rounding number to 2 decimal places obtained from stackoverflow
- (https://stackoverflow.com/questions/25224129/round-every-textbox-to-2-decimal-places) */
  
-    
+ 
+/*placing values into the textboxs*/    
  function display(parm1, parm2, parm3, parm4){
      
      document.getElementById("vat").value = parm1.toFixed(2);
@@ -56,7 +56,8 @@
       
       enablebtnProceed();
  }
- 
+ /* code for rounding number to 2 decimal places obtained from stackoverflow
+ (https://stackoverflow.com/questions/25224129/round-every-textbox-to-2-decimal-places) */
 
  function enablebtnProceed(){
      $('#btnProceed').prop('disabled', false);

@@ -15,6 +15,7 @@ session_start();
         
         <script type="text/javascript" src="ebus2_validator.js"></script>
        
+       <!--Adding background-->
        <style>
            body{
                background-image: url("https://all4desktop.com/data_images/original/4236532-background-images.jpg");

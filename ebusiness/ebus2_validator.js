@@ -53,7 +53,7 @@ function validateEmail(){
     }
     else{
         enablebtnPurchase();
-        alert("Your details have been verified, you may proceed with your purchase")
+        alert("Your details have been verified, you may proceed with your purchase");
     }
 }
 

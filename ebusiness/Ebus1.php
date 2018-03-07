@@ -80,16 +80,16 @@
             
             <form class="form" method="POST" action="Ebus2.php">
               
-              <label for="SalesForce">
+              <label for="salesForce">
               <input type="radio" id="salesForce" name="product" onClick="disablebtnProceed()">
-                SalesForce @  &#8364 100
+                SalesForce @  &#8364; 100
               </label>
               
               <br>
               
               <label for="aws">
                 <input type="radio" id="aws" name="product" onClick="disablebtnProceed()">
-                AWS @  &#8364 300
+                AWS @  &#8364; 300
               </label>
              
               <br>
@@ -97,14 +97,14 @@
                
               <label for="gmail">
                 <input type="radio" id="gmail" name="product" onClick="disablebtnProceed()">
-                Gmail Services @ &#8364 400
+                Gmail Services @ &#8364; 400
               </label>
               
               <br>
             
               <label for="cloud9">
                 <input type="radio" id="cloud9" name="product" onClick="disablebtnProceed()">
-                Cloud 9 @ &#8364 200
+                Cloud 9 @ &#8364; 200
               </label>
             
               <br>
@@ -164,10 +164,10 @@
             <label>*Discount is calculated as a percentage of Sub Total + VAT*</label>
             
             <!--Product images-->
-            <img class="salesforce-IMG" src="http://www.stickpng.com/assets/images/58482f67cef1014c0b5e4a81.png">
-            <img class="AWS-IMG" src="https://community.embarcadero.com/uploads/2214/AWS/b2ap3_thumbnail_AmazonWebservices_Logo.svg-1.png">
-            <img class="gmail-IMG" src="http://maciek.lasyk.info/sysop/wp-content/uploads/2013/12/Gmail_logo.png">
-            <img class="cloud9-IMG" src="http://glmdev.tech/open-source/assets/images/carousel/cloud9-logo.png">
+            <img class="salesforce-IMG" src="http://www.stickpng.com/assets/images/58482f67cef1014c0b5e4a81.png" alt="Product Image">
+            <img class="AWS-IMG" src="https://community.embarcadero.com/uploads/2214/AWS/b2ap3_thumbnail_AmazonWebservices_Logo.svg-1.png" alt="Product Image">
+            <img class="gmail-IMG" src="http://maciek.lasyk.info/sysop/wp-content/uploads/2013/12/Gmail_logo.png" alt="Product Image">
+            <img class="cloud9-IMG" src="http://glmdev.tech/open-source/assets/images/carousel/cloud9-logo.png" alt="Product Image">
             
             
     </body>

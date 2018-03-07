@@ -279,3 +279,35 @@ label{
     font-size: 20px;
 }
 
+.salesforce-IMG{
+    position: absolute;
+    width: 10%;
+    left: 30%;
+    height: auto;
+    top: 15%;
+}
+          
+
+.AWS-IMG{
+    position: absolute;
+    width: 15%;
+    left: 42%;
+    height: auto;
+    top: 15%;
+}
+
+.gmail-IMG{
+    position: absolute;
+    width: 14%;
+    left: 59%;
+    height: auto;
+    top: 17%;
+}
+
+.cloud9-IMG{
+    position: absolute;
+    width: 15%;
+    left: 75%;
+    height: auto;
+    top: 10%;
+}

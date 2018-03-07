@@ -65,6 +65,7 @@
             float: right;
           }
           
+          
         </style>
 
 
@@ -81,14 +82,14 @@
               
               <label for="SalesForce">
               <input type="radio" id="salesForce" name="product" onClick="disablebtnProceed()">
-                SalesForce @ $100
+                SalesForce @  &#8364 100
               </label>
               
               <br>
               
               <label for="aws">
                 <input type="radio" id="aws" name="product" onClick="disablebtnProceed()">
-                AWS @ $300
+                AWS @  &#8364 300
               </label>
              
               <br>
@@ -96,14 +97,14 @@
                
               <label for="gmail">
                 <input type="radio" id="gmail" name="product" onClick="disablebtnProceed()">
-                Gmail Services @ $275
+                Gmail Services @ &#8364 400
               </label>
               
               <br>
             
               <label for="cloud9">
                 <input type="radio" id="cloud9" name="product" onClick="disablebtnProceed()">
-                Cloud 9 @ $175
+                Cloud 9 @ &#8364 200
               </label>
             
               <br>
@@ -149,8 +150,10 @@
               <br>
               <br>
               
+              
             
             </form>
+            
             
             <br>
             
@@ -159,5 +162,13 @@
             <a class="btn btn-red" role="button" href="Ebus1.php">Clear Choice</a>
             
             <label>*Discount is calculated as a percentage of Sub Total + VAT*</label>
+            
+            <!--Product images-->
+            <img class="salesforce-IMG" src="http://www.stickpng.com/assets/images/58482f67cef1014c0b5e4a81.png">
+            <img class="AWS-IMG" src="https://community.embarcadero.com/uploads/2214/AWS/b2ap3_thumbnail_AmazonWebservices_Logo.svg-1.png">
+            <img class="gmail-IMG" src="http://maciek.lasyk.info/sysop/wp-content/uploads/2013/12/Gmail_logo.png">
+            <img class="cloud9-IMG" src="http://glmdev.tech/open-source/assets/images/carousel/cloud9-logo.png">
+            
+            
     </body>
 </html>

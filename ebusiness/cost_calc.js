@@ -10,10 +10,10 @@
         argSubTotal = 100;
      }
      else if (document.getElementById('gmail').checked){
-         argSubTotal = 275;
+         argSubTotal = 400;
      }
      else if (document.getElementById('cloud9').checked){
-         argSubTotal= 175;
+         argSubTotal= 200;
      }
      else if (document.getElementById('aws').checked){
           argSubTotal = 300;
